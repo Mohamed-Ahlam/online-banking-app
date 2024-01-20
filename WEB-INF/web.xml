@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                      https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+  version="6.0"
+  metadata-complete="true">
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Menu</servlet-name>
+        <servlet-class>Menu</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Menu</servlet-name>
+        <url-pattern>/Menu</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>viewBalance</servlet-name> 
+        <servlet-class>viewBalance</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>viewBalance</servlet-name>
+        <url-pattern>/viewBalance</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Transaction</servlet-name> 
+        <servlet-class>Transaction</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Transaction</servlet-name>
+        <url-pattern>/Transaction</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>chooseAccToTransfer</servlet-name> 
+        <servlet-class>chooseAccToTransfer</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>chooseAccToTransfer</servlet-name>
+        <url-pattern>/chooseAccToTransfer</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>chooseAccToAdd</servlet-name> 
+        <servlet-class>chooseAccToAdd</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>chooseAccToAdd</servlet-name>
+        <url-pattern>/chooseAccToAdd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Delete</servlet-name> 
+        <servlet-class>Delete</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>chooseAccToDelete</servlet-name> 
+        <servlet-class>chooseAccToDelete</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>chooseAccToDelete</servlet-name>
+        <url-pattern>/chooseAccToDelete</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addAccount</servlet-name> 
+        <servlet-class>addAccount</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>addAccount</servlet-name>
+        <url-pattern>/addAccount</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showHistory</servlet-name> 
+        <servlet-class>showHistory</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>showHistory</servlet-name>
+        <url-pattern>/showHistory</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
