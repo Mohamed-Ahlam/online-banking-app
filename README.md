@@ -10,7 +10,7 @@ Banking users with usernames and unique identifiers
 3 different types of accounts that can be added to the banking user’s object/profile (keeping in mind that a user could have more than one of the same type of account, like 2 savings accounts) that can hold funds as dollars and cents.
 
 Methods:
-View account history
+View account history - 
 View account balances
 Sum all balances
 Transfer funds between accounts (also not allowing a user to transfer more from an account than they have in the account)
